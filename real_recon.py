@@ -6,7 +6,7 @@ import shodan
 import requests
 import argparse
 import socket
-argparse = argparse.ArgumentParser(description="Information Gathering Tool",usage="python3 info_gathering.py -d DOMAIN [-s IP]")
+argparse = argparse.ArgumentParser(description="Information Gathering Tool",usage="python3 real_recon.py -d DOMAIN [-s IP]")
 
 #argparse is object of ArgumentParser class
 #The items inside brackets are optional for help purpose
